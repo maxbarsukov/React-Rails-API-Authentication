@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 # Middleware that will make Rack-based apps CORS compatible.
-gem 'rack-cors'
+gem 'rack-cors', require: 'rack/cors'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
